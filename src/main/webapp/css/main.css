@@ -1,0 +1,164 @@
+/* 
+    Created on : Oct 2, 2020, 6:40:10 PM
+    Author     : Jessie
+*/
+
+html {
+    width: 100%;
+    height: auto;
+}
+body {
+    background: white;
+}
+
+.thumbnail{
+    float:left; 
+    margin:5px;
+    text-align: center;
+}
+.thumbnail img{
+    max-width:100px;
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+.thumbnail a{
+    color: #8bbee8;
+}
+
+/*Nav Bar Styles*/
+
+.nav {
+    background-color: #77a777;
+}
+
+.navLogo {
+    width: 20vh;
+    height: auto;
+    float: left;
+}
+
+.navRow1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 2vh;
+    align-items: flex-end;
+}
+
+.searchBar {
+    width: 75vh;
+    height: 4vh;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-right: 2vh;
+}
+
+.navRow1-Items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    float: right;
+    height: auto;
+}
+
+.navGenreList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 2vh;
+    background-color: #8bbee8;
+}
+
+.navGenreList a,
+.footerRow1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.cart,
+.fa-search {
+    font-size: 2vh;
+}
+
+.login {
+    margin-right: 2vh;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    height: 4vh;
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/*Footer Styles*/
+
+footer {
+    background-color: #77a777;
+}
+
+.footerRow1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerRow2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.socialMedia ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+.socialMedia i {
+    color: #8bbee8;
+    font-size: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 2vh;
+}

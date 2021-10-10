@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : Oct 3, 2020, 12:36:38 PM
+    Author     : Raj Parmar
+*/
+
+.text {
+    margin: 20px;
+}
+
+body {
+    background-color: white;
+}
+.container {
+    height: 80%;
+}
+
+
+/*Recommended*/
+
+.book-row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.title-banner {
+    font-size: 30px;
+}
+
+.book-banner recommended-home {
+    padding-bottom: 100px;
+}
+
+.book-image{
+    margin-left: 10%;
+    margin-right: 5%;
+    float: left;
+    width:300px;
+    height:400px;
+}

@@ -1,0 +1,8 @@
+<%
+    //Only use this if you use the connection.jspf in the same file
+    try{
+        con.close();
+    }catch(Exception e){
+        
+    }
+%>

@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2020, 5:12:48 PM
+    Author     : Raj Parmar
+*/
+
+center {
+  
+  padding-top: auto;
+  margin: auto;
+  height: 200px;
+  width: 50%;
+  background-color: #77a777;
+}
+
+body {
+  background-image: url('../Images/BookShelf.jpg');
+}
+
+h1 {
+    font-size: 50px;
+}

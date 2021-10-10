@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    margin:0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #77a777;
+
+}
+
+.answer {
+    margin: 25px;
+}
+
+.title {
+    margin: 25px;
+}

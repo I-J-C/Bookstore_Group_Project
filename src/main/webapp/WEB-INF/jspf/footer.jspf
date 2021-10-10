@@ -1,0 +1,44 @@
+<!--FOOTER-->
+    <!--Footer Start-->
+    <footer>
+        <div>
+            <ul class="footerRow1">
+                <li><a href="aboutus.jsp">ABOUT US</a></li>
+                <li><a href="faq.jsp">FAQ</a></li>
+                <li><a href="support.jsp">SUPPORT</a></li>
+                <li class="newsletter">NEWSLETTER SIGN-UP
+                    <form action="Place Action Here">
+                        <input type="text" placeholder="E-mail Address">
+                        <button type="submit">Submit</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="footerRow2">
+            <div class="copyright">&copy; 2020 Group 2</div>
+            <div class="socialMedia">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+    <!--JavaScript FILES GO HERE-->
+</body>
+
+</html>

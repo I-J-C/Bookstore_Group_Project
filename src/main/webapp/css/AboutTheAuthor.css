@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 4, 2020, 5:41:31 PM
+    Author     : Raj Parmar
+*/
+
+body {
+    background-color: #77a777;
+}
+
+.body{
+    
+}
+
+.body-text{
+    margin-left: 100px;
+}
+
+
+/*recommended*/
+.book-row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.title-banner {
+    font-size: 30px;
+}
+
+.book-banner recommended-home {
+    padding-bottom: 100px;
+    
+}

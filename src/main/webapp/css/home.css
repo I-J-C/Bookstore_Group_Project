@@ -1,0 +1,46 @@
+/* 
+    Created on : Oct 4, 2020, 6:14:49 PM
+    Author     : Jessie
+*/
+
+html {
+    background-color: #F5F5F5;
+}
+
+.heroImage {
+    height: 50vh;
+    width: 100%;
+    background: url("../img/hero_placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.text {
+    width: 100%;
+}
+
+.title-banner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 90%;
+    background-color: #77a777;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.book-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
